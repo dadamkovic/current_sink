@@ -1,0 +1,9 @@
+Manufacturer=TT Electronics
+PartNumber=PS60-10MC1BR10K
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=7
+Version=1.3
+Released=2019-03-29 12:18:23
+Downloaded=2024-02-19 03:23:55
+3D=Y

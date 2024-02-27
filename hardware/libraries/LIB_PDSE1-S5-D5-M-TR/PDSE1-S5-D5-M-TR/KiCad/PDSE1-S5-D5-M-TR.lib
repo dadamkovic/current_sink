@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PDSE1-S5-D5-M-TR
+#/2239356/164519/2.50/6/2/Power Supply
+DEF PDSE1-S5-D5-M-TR PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "PDSE1-S5-D5-M-TR" 1050 200 50 H V L CNN
+F2 "PDS1-M" 1050 100 50 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/pdse1-m.pdf" 1050 0 50 H I L CNN
+F4 "Isolated DC/DC Converters isolated, 1 W, 4.5~5.5 Vdc input, 5 Vdc, 0.1 A, dual unregulated output, SMT, T&R" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "490-PDSE1-S5-D5-M-TR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/PDSE1-S5-D5-M-TR?qs=T3oQrply3y84xFy4PXEd%252Bg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Inc." 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PDSE1-S5-D5-M-TR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X 0V 4 0 -200 200 R 50 50 0 0 P
+X -VOUT 5 0 -300 200 R 50 50 0 0 P
+X +VOUT 7 1200 -100 200 L 50 50 0 0 P
+X NC 10 1200 0 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

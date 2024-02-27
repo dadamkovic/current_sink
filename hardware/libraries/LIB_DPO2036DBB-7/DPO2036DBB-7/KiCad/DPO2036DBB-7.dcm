@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DPO2036DBB-7
+D Dataline Over Voltage Protection Switches U-QFN2020-12 T&R 3K
+K
+F https://www.diodes.com/assets/Datasheets/DPO2036.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=CUI Inc.
+PartNumber=PDSE1-S5-D5-M-TR
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=6
+Version=3.1
+Released=2019-09-07 22:41:30
+Downloaded=2024-02-19 03:08:22
+3D=Y
