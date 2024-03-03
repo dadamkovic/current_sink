@@ -5,6 +5,138 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "ADTL084_1" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 2.54 6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "ADTL084" (at 2.54 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 3.175 6.985 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/609/ADTL082_084-3122423.pdf" (at 6.35 6.985 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "quad opamp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Precision Amplifiers Low Cost JFET Input Operational Amplifier" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LFCSP*4x4mm*P0.65mm*EP2.6x2.6mm*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ADTL084_1_1_1"
+        (polyline
+          (pts
+            (xy 5.08 0)
+            (xy -5.08 5.08)
+            (xy -5.08 -5.08)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -2.54 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 2.54 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "ADTL084_1_2_1"
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy -5.08 -5.08)
+            (xy 5.08 0)
+            (xy -5.08 5.08)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 2.54 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -2.54 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "ADTL084_1_3_1"
+        (polyline
+          (pts
+            (xy 5.08 0)
+            (xy -5.08 5.08)
+            (xy -5.08 -5.08)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 2.54 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -2.54 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "ADTL084_1_4_1"
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy 5.08 0)
+            (xy -5.08 -5.08)
+            (xy -5.08 5.08)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 2.54 0) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -2.54 0) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "ADTL084_1_5_1"
+        (pin power_in line (at 0 -7.62 90) (length 3.81)
+          (name "V-" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 7.62 270) (length 3.81)
+          (name "V+" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -83,14 +215,6 @@
         (pin output line (at 7.62 0 180) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 0 2.54 270) (length 2.54) hide
-          (name "NIC" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 0 -2.54 90) (length 2.54) hide
-          (name "NIC" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at -7.62 -2.54 0) (length 2.54)
           (name "-" (effects (font (size 1.27 1.27))))
@@ -177,10 +301,6 @@
         (pin power_in line (at 0 -7.62 90) (length 3.81)
           (name "V-" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 90) (length 3.81) hide
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 0 7.62 270) (length 3.81)
           (name "V+" (effects (font (size 1.27 1.27))))
@@ -402,7 +522,7 @@
   (symbol (lib_id "power:GND") (at 72.39 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1267422d-7684-42cd-a2a6-e844db5ca6a6)
-    (property "Reference" "#PWR034" (at 72.39 128.905 0)
+    (property "Reference" "#PWR0502" (at 72.39 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 127.635 0)
@@ -418,7 +538,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -427,7 +547,7 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 191ae1f7-adfb-4eff-84fa-761aebb79feb)
-    (property "Reference" "R33" (at 74.93 50.165 0)
+    (property "Reference" "R501" (at 74.93 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 74.93 52.705 0)
@@ -444,7 +564,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R33") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -453,7 +573,7 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a432351-893a-4b2b-ae05-3fdf09d2f225)
-    (property "Reference" "R31" (at 74.93 37.465 0)
+    (property "Reference" "R500" (at 74.93 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 74.93 40.005 0)
@@ -470,7 +590,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R31") (unit 1)
+          (reference "R500") (unit 1)
         )
       )
     )
@@ -479,7 +599,7 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 253616c7-ac4b-48cd-b9b6-04fd14d57a1e)
-    (property "Reference" "R32" (at 74.93 97.155 0)
+    (property "Reference" "R504" (at 74.93 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 74.93 99.695 0)
@@ -496,20 +616,20 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R32") (unit 1)
+          (reference "R504") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "User_Opamp:ADTL084") (at 118.11 46.99 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_name "ADTL084_1") (lib_id "User_Opamp:ADTL084") (at 118.11 46.99 0) (unit 4)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dcc29a6-2690-4ab8-ab78-fc7ac53b31fb)
-    (property "Reference" "U2" (at 118.11 38.1 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "U2" (at 118.11 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ADTL084" (at 118.11 40.64 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "ADTL084" (at 118.11 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 121.285 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -518,8 +638,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee81607c-0852-403f-9849-e7bacf168c38))
-    (pin "13" (uuid f57e143d-8433-4017-b936-3d920d62a2d4))
-    (pin "16" (uuid 1d81e7f5-0ff7-4e05-b2b5-d8646072121e))
     (pin "2" (uuid 78c9bec7-5864-4ad8-b671-5381e0d1def5))
     (pin "3" (uuid 6b649223-4dd6-4683-9654-ba891cd0e2ef))
     (pin "5" (uuid f33b4f0a-d1e5-4c82-aa9e-d7ee58e9be7d))
@@ -532,7 +650,6 @@
     (pin "13" (uuid f57e143d-8433-4017-b936-3d920d62a2d4))
     (pin "14" (uuid 24b2f820-6bee-4395-b301-6a367b1f7ab6))
     (pin "11" (uuid 68634440-94d8-44dc-90e1-a3a4d1fb293f))
-    (pin "17" (uuid 536e67b4-5fd2-4bdc-aeed-647cc2d5decb))
     (pin "4" (uuid 9e135b1a-5219-431b-b8bb-484fbef52aea))
     (instances
       (project "current_sink_dev"
@@ -540,10 +657,10 @@
           (reference "U2") (unit 4)
         )
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02da786d-4b46-4498-8c46-331dfb2a8a58"
-          (reference "U2") (unit 4)
+          (reference "U201") (unit 4)
         )
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "U2") (unit 4)
+          (reference "U201") (unit 4)
         )
       )
     )
@@ -552,7 +669,7 @@
   (symbol (lib_id "power:GND") (at 104.14 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 505256f8-5e5b-436d-9a1b-3b7d20791b66)
-    (property "Reference" "#PWR017" (at 104.14 78.74 0)
+    (property "Reference" "#PWR0501" (at 104.14 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 77.47 0)
@@ -568,7 +685,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -577,7 +694,7 @@
   (symbol (lib_id "Device:R_Small") (at 118.11 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a4e7f49-61ad-4fac-8cb6-627acc101354)
-    (property "Reference" "R39" (at 118.11 113.03 90)
+    (property "Reference" "R506" (at 118.11 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_Small" (at 118.11 115.57 90)
@@ -594,7 +711,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R39") (unit 1)
+          (reference "R506") (unit 1)
         )
       )
     )
@@ -603,7 +720,7 @@
   (symbol (lib_id "Device:R_Small") (at 104.14 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67cc5319-085d-4a13-a19d-6d6b8d75293c)
-    (property "Reference" "R36" (at 106.605 64.135 0)
+    (property "Reference" "R503" (at 106.605 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Small" (at 106.605 66.675 0)
@@ -620,7 +737,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R36") (unit 1)
+          (reference "R503") (unit 1)
         )
       )
     )
@@ -642,8 +759,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 218289fa-25be-46e5-942b-a8e810853c6f))
-    (pin "13" (uuid 12a1270d-5572-49c3-ba2c-c0cf104f461b))
-    (pin "16" (uuid 981dda89-5583-4d3d-9631-a4945aa15638))
     (pin "2" (uuid 24b6a559-be95-4a76-ae79-29e2078af0f1))
     (pin "3" (uuid 589708ec-dac1-4468-895a-36758f5363b2))
     (pin "5" (uuid 07fbbf0b-a52c-43e1-9ef5-32c2fe573927))
@@ -656,7 +771,6 @@
     (pin "13" (uuid 12a1270d-5572-49c3-ba2c-c0cf104f461b))
     (pin "14" (uuid 9f9762b6-9558-49f9-b332-13d6ce869ec0))
     (pin "11" (uuid cbe93372-72f9-450c-bc66-fe6540487ef2))
-    (pin "17" (uuid 38285b86-bf76-4381-95f0-7c37944248f0))
     (pin "4" (uuid 99b9cb29-7c24-4e3f-b737-9be07919669f))
     (instances
       (project "current_sink_dev"
@@ -667,7 +781,7 @@
           (reference "U2") (unit 3)
         )
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "U4") (unit 4)
+          (reference "U202") (unit 4)
         )
       )
     )
@@ -676,7 +790,7 @@
   (symbol (lib_id "power:GND") (at 72.39 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dd26c54-c6db-4c96-9764-88880df1a42c)
-    (property "Reference" "#PWR016" (at 72.39 69.215 0)
+    (property "Reference" "#PWR0500" (at 72.39 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 67.945 0)
@@ -692,7 +806,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0500") (unit 1)
         )
       )
     )
@@ -701,7 +815,7 @@
   (symbol (lib_id "Device:R_Small") (at 104.14 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b36497bb-1353-453b-805d-fb60af0fafe3)
-    (property "Reference" "R40" (at 106.605 123.825 0)
+    (property "Reference" "R507" (at 106.605 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Small" (at 106.605 126.365 0)
@@ -718,7 +832,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R40") (unit 1)
+          (reference "R507") (unit 1)
         )
       )
     )
@@ -727,7 +841,7 @@
   (symbol (lib_id "Device:R_Small") (at 118.11 58.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4a2dba3-7d29-4eb0-83af-254b938cd668)
-    (property "Reference" "R35" (at 118.11 53.34 90)
+    (property "Reference" "R502" (at 118.11 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_Small" (at 118.11 55.88 90)
@@ -744,7 +858,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R35") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -753,7 +867,7 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9af3ff0-6525-47e8-af29-ee87bfda71e7)
-    (property "Reference" "R34" (at 74.93 109.855 0)
+    (property "Reference" "R505" (at 74.93 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 74.93 112.395 0)
@@ -770,7 +884,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "R34") (unit 1)
+          (reference "R505") (unit 1)
         )
       )
     )
@@ -779,7 +893,7 @@
   (symbol (lib_id "power:GND") (at 104.14 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe86c881-2cd1-42fc-bf48-9261c9db0cdc)
-    (property "Reference" "#PWR018" (at 104.14 138.43 0)
+    (property "Reference" "#PWR0503" (at 104.14 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 137.16 0)
@@ -795,7 +909,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/c8c24e40-4b1c-44b1-836c-5d981daf7982"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
       )
     )

@@ -1,4 +1,4 @@
-21571130494149673
+21572839905923558
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89291,6 +89291,13 @@ igbt diode module
 0
 25
 25
+User_LDC_Display
+VIM878DPRCSLV
+
+
+0
+36
+36
 User_SupplyGen
 PDS1-M
 PDS1-M

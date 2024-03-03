@@ -646,6 +646,11 @@
     (uuid fcb35bcd-dad0-4201-892c-66b282d9e939)
   )
 
+  (text "In case U5 doesn't work as expected bridge the 5V" (at 121.92 26.035 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ccf0ac08-c38f-4121-a917-ae18b4601e4e)
+  )
+
   (global_label "5V0_SUPPLY_G" (shape bidirectional) (at 176.53 45.085 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 039df15b-791e-435c-977a-360ace7c1099)
@@ -692,7 +697,7 @@
   (symbol (lib_id "power:GND1") (at 127 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09ba37b2-9112-40b9-914e-258d235146d1)
-    (property "Reference" "#PWR014" (at 127 73.025 0)
+    (property "Reference" "#PWR0101" (at 127 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 127 71.755 0)
@@ -708,7 +713,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -717,7 +722,7 @@
   (symbol (lib_id "power:GND") (at 201.295 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f8f7a52-a2cb-48da-bb05-6c81d5803ba6)
-    (property "Reference" "#PWR013" (at 201.295 63.5 0)
+    (property "Reference" "#PWR0100" (at 201.295 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.295 62.23 0)
@@ -733,7 +738,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -742,7 +747,7 @@
   (symbol (lib_id "Device:C_Small") (at 127 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21bf5f7c-10c7-40e5-984c-396b663af0f0)
-    (property "Reference" "C8" (at 129.54 53.3463 0)
+    (property "Reference" "C101" (at 129.54 53.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 129.54 55.8863 0)
@@ -759,7 +764,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "C8") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -789,7 +794,7 @@
       )
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
       (project "usb_input"
@@ -808,13 +813,13 @@
   (symbol (lib_id "Device:R_Small") (at 147.32 32.385 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44f87446-a3d4-42e7-974d-f96cdd6ea4a5)
-    (property "Reference" "R1000" (at 147.32 27.94 90)
+    (property "Reference" "R100" (at 147.32 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 147.32 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.32 32.385 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 147.32 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 32.385 0)
@@ -825,7 +830,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "R1000") (unit 1)
+          (reference "R100") (unit 1)
         )
       )
     )
@@ -877,7 +882,7 @@
       )
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "J1") (unit 1)
+          (reference "J100") (unit 1)
         )
       )
       (project "usb_input"
@@ -901,7 +906,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.735 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e4b4daf-a5a6-43e6-bfb1-3347cf698e94)
-    (property "Reference" "C7" (at 168.275 48.2663 0)
+    (property "Reference" "C100" (at 168.275 48.2663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 168.275 50.8063 0)
@@ -918,7 +923,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "C7") (unit 1)
+          (reference "C100") (unit 1)
         )
       )
     )
@@ -927,7 +932,7 @@
   (symbol (lib_id "User_SupplyGen:PDSE1-S5-D5-M-TR") (at 140.335 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dc28b7a-65fb-4758-b14f-89231a5482b2)
-    (property "Reference" "U5" (at 147.0025 38.735 0)
+    (property "Reference" "U100" (at 147.0025 38.735 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PDSE1-S5-D5-M-TR" (at 147.0025 41.275 0)
@@ -948,7 +953,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "U5") (unit 1)
+          (reference "U100") (unit 1)
         )
       )
     )
@@ -957,7 +962,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.735 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7598c29-0149-48b9-93e3-4f9786ee86e0)
-    (property "Reference" "C9" (at 168.275 57.7913 0)
+    (property "Reference" "C102" (at 168.275 57.7913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 168.275 60.3313 0)
@@ -974,7 +979,7 @@
     (instances
       (project "current_sink_dev"
         (path "/695b42ec-77e0-4be3-bf4d-1fc5cfcb9ef1/02451f10-14c4-4640-81bd-2617f523efcf"
-          (reference "C9") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
