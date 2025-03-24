@@ -296,7 +296,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .data.alphabet
-                0x00000000        0x4 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
+                0x00000000        0xa CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .debug_info    0x00000000      0x158 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .debug_abbrev  0x00000000       0xc9 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .debug_aranges
@@ -315,9 +315,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x1df CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .debug_macro   0x00000000       0x89 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .debug_macro   0x00000000      0x4cc CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
+ .debug_macro   0x00000000       0x5e CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .debug_line    0x00000000      0x30e CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
- .debug_str     0x00000000     0x53a2 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
+ .debug_str     0x00000000     0x540e CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .comment       0x00000000       0x44 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
