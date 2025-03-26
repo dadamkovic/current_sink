@@ -26,7 +26,7 @@
 typedef enum
 {
   MCP_OK,
-  MCP_FAIL
+  MCP_FAIL,
 } TDefMCPStatus;
 
 /// @brief selects the write / read mode for a command
@@ -55,6 +55,11 @@ extern TDefCyclicBuffer mcp_buffer;
 TDefMCPStatus bufferAdd(uint8_t *data, uint8_t len);
 TDefMCPStatus bufferClear();
 TDefMCPStatus bufferTransmit();
+
+uint8_t segmentAddressBit(uint8_t digit, uint16_t segment);
+TDefMCPStatus mcpSetMemoryMap(Tdef_segement *data);
+TDefMCPStatus mcpClearMemoryMap();
+TDefMCPStatus mcpWriteString(uint32_t num);
 
 TDefMCPStatus mcpInit(TDefTransmitMCP *t_func, TDefReceiveMCP *r_func);
 TDefMCPStatus mcpShutdown();

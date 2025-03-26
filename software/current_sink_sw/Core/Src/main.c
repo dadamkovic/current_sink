@@ -99,6 +99,8 @@ int main(void)
   bufferTransmit();
   data[0] = 0x1;
   uint8_t idx = 0;
+
+  uint32_t number = 66778899;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -106,7 +108,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    mcpWriteDisplay(data,18,0x00);
+    /*mcpWriteDisplay(data,18,0x00);
     bufferTransmit();
     data[idx] = data[idx] << 1;
     if(data[idx] == 0){
@@ -115,6 +117,11 @@ int main(void)
     }
     HAL_Delay(2000);
     while(HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port,ENCODER_SW_Pin) != GPIO_PIN_RESET){};
+    */
+    mcpWriteString(number);
+    HAL_Delay(2000);
+    while(HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port,ENCODER_SW_Pin) != GPIO_PIN_RESET){};
+    number += 1111;
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

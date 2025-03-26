@@ -50,9 +50,93 @@ TDefMCPStatus bufferTransmit(){
 }
 
 
-/*TDefMCPStatus memoryMapInit(){
-  memory_map[0][0] = 
-}*/
+
+
+
+uint8_t segmentAddressBit(uint8_t digit, uint16_t segment){
+  switch(segment){
+    case SEG_A:
+      return 141-((digit-1)*8);
+    case SEG_B:
+      return 142-((digit-1)*8);
+    case SEG_C:
+      return 143-((digit-1)*8);
+    case SEG_D:
+      return 8+((digit-1)*8);
+    case SEG_E:
+      return 7+((digit-1)*8);
+    case SEG_F:
+      return 6+((digit-1)*8);
+    case SEG_G:
+      return 138-((digit-1)*8);
+    case SEG_H:
+      return 137-((digit-1)*8);
+    case SEG_I:
+      return 1+((digit-1)*8);
+    case SEG_J:
+      return 2+((digit-1)*8);
+    case SEG_K:
+      return 3+((digit-1)*8);
+    case SEG_L:
+      return 4+((digit-1)*8);
+    case SEG_M:
+      return 140-((digit-1)*8);
+    case SEG_N:
+      return 139-((digit-1)*8);
+  }
+  return 255;
+}
+
+
+TDefMCPStatus mcpSetMemoryMap(Tdef_segement *data){
+  uint8_t memory_bit = 0;
+
+  for(uint8_t idx=0; idx<8; idx++){
+    for(uint8_t jdx=0; jdx<16; jdx++){
+
+      if(data[idx].segments & (1<<jdx)){
+        memory_bit = segmentAddressBit(idx+1, (1<<jdx));
+        if(memory_bit%8 != 0){
+          memory_map[(memory_bit-1)/8] |= (1<<((memory_bit%8)-1)); 
+        }
+        else{
+          memory_map[(memory_bit-1)/8] |= (1<<7); 
+        }
+      }
+    }
+  }
+
+  return MCP_OK;
+}
+
+
+
+TDefMCPStatus mcpClearMemoryMap(){
+  for(uint8_t idx=0; idx<18; idx++){
+    memory_map[idx] = 0x00;
+  }
+
+  return MCP_OK;
+}
+
+
+TDefMCPStatus mcpWriteString(uint32_t num){
+  uint8_t digit;
+  Tdef_segement segments[8];
+
+
+  mcpClearMemoryMap();
+
+  for(uint8_t i=0; i<8; i++){
+    digit = num % 10;
+    num = num / 10;
+    segments[7-i] = alphabet[digit];
+  }
+
+  mcpSetMemoryMap(segments);
+  mcpWriteDisplay(memory_map, 18, 0x00);
+  return bufferTransmit();
+}
 
 
 TDefMCPStatus mcpInit(TDefTransmitMCP t_func, TDefReceiveMCP r_func){
