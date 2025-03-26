@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/daniel/projects/current_sink/software/current_sink_sw/build/Debug/
+cmake_ninja_workdir = D$:/daniel/projects/current_sink/software/current_sink_sw/
 # =============================================================================
 # Object build statements for EXECUTABLE target current_sink_sw
 
@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_current_sink_sw: phony || CMakeFiles/cur
 build CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728/MCP4728.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Lib\MCP4728\MCP4728.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Lib\MCP4728
@@ -60,7 +60,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj: C_COMPILER_
 build CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib/segment_lib.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Lib\segment_lib\segment_lib.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Lib\segment_lib
@@ -68,7 +68,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj: C_C
 build CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/utility.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\utility.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -76,7 +76,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj: C_COMPILER__current
 build CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/main.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\main.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -84,7 +84,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj: C_COMPILER__current_si
 build CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/gpio.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\gpio.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -92,7 +92,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj: C_COMPILER__current_si
 build CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/adc.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\adc.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -100,7 +100,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj: C_COMPILER__current_sin
 build CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/i2c.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\i2c.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -108,7 +108,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj: C_COMPILER__current_sin
 build CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/stm32f0xx_it.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\stm32f0xx_it.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -116,7 +116,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj: C_COMPILER__cu
 build CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/stm32f0xx_hal_msp.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\stm32f0xx_hal_msp.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -124,7 +124,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj: C_COMPILE
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_adc.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -132,7 +132,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_adc_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -140,7 +140,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -148,7 +148,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -156,7 +156,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -164,7 +164,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -172,7 +172,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_i2c_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -180,7 +180,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_gpio.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -188,7 +188,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_dma.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -196,7 +196,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_cortex.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -204,7 +204,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -212,7 +212,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_pwr_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -220,7 +220,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -228,7 +228,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -236,7 +236,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_exti.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Drivers\STM32F0xx_HAL_Driver\Src
@@ -244,7 +244,7 @@ build CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_
 build CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/system_stm32f0xx.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\system_stm32f0xx.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -252,7 +252,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj: C_COMPILER
 build CMakeFiles/current_sink_sw.dir/Core/Src/sysmem.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/sysmem.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\sysmem.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -260,7 +260,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/sysmem.c.obj: C_COMPILER__current_
 build CMakeFiles/current_sink_sw.dir/Core/Src/syscalls.c.obj: C_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/Core/Src/syscalls.c || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\Core\Src\syscalls.c.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir\Core\Src
@@ -268,7 +268,7 @@ build CMakeFiles/current_sink_sw.dir/Core/Src/syscalls.c.obj: C_COMPILER__curren
 build CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj: ASM_COMPILER__current_sink_sw_unscanned_Debug D$:/daniel/projects/current_sink/software/current_sink_sw/startup_stm32f042x6.s || cmake_object_order_depends_target_current_sink_sw
   DEFINES = -DDEBUG -DSTM32F042x6 -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\current_sink_sw.dir\startup_stm32f042x6.s.obj.d
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -x assembler-with-cpp -MMD -MP -g
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -x assembler-with-cpp -MMD -MP -g
   INCLUDES = -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/MCP4728 -ID:/daniel/projects/current_sink/software/current_sink_sw/Core/Lib/segment_lib -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Core/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -ID:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   OBJECT_FILE_DIR = CMakeFiles\current_sink_sw.dir
@@ -282,7 +282,7 @@ build CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj: ASM_COMPILER__cu
 # Link the executable current_sink_sw.elf
 
 build current_sink_sw.elf: C_EXECUTABLE_LINKER__current_sink_sw_Debug CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/sysmem.c.obj CMakeFiles/current_sink_sw.dir/Core/Src/syscalls.c.obj CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
-  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g
+  FLAGS = -mcpu=cortex-m0  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g
   OBJECT_DIR = CMakeFiles\current_sink_sw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -294,7 +294,7 @@ build current_sink_sw.elf: C_EXECUTABLE_LINKER__current_sink_sw_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw\build\Debug && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw\build\Debug"
+  COMMAND = cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -306,7 +306,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw\build\Debug && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw\build\Debug"
+  COMMAND = cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -323,7 +323,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build cmake/stm32cubemx/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw\build\Debug\cmake\stm32cubemx && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw\build\Debug"
+  COMMAND = cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw\cmake\stm32cubemx && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -335,7 +335,7 @@ build cmake/stm32cubemx/edit_cache: phony cmake/stm32cubemx/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build cmake/stm32cubemx/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw\build\Debug\cmake\stm32cubemx && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw\build\Debug"
+  COMMAND = cmd.exe /C "cd /D D:\daniel\projects\current_sink\software\current_sink_sw\cmake\stm32cubemx && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\daniel\projects\current_sink\software\current_sink_sw -BD:\daniel\projects\current_sink\software\current_sink_sw"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -353,14 +353,14 @@ build current_sink_sw: phony current_sink_sw.elf
 # =============================================================================
 
 #############################################
-# Folder: D:/daniel/projects/current_sink/software/current_sink_sw/build/Debug
+# Folder: D:/daniel/projects/current_sink/software/current_sink_sw
 
 build all: phony current_sink_sw.elf cmake/stm32cubemx/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/daniel/projects/current_sink/software/current_sink_sw/build/Debug/cmake/stm32cubemx
+# Folder: D:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx
 
 build cmake/stm32cubemx/all: phony
 
@@ -371,14 +371,14 @@ build cmake/stm32cubemx/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/daniel/projects/current_sink/software/current_sink_sw/CMakeLists.txt D$:/daniel/projects/current_sink/software/current_sink_sw/cmake/gcc-arm-none-eabi.cmake D$:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake CMakeLists.txt cmake/gcc-arm-none-eabi.cmake cmake/stm32cubemx/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/daniel/projects/current_sink/software/current_sink_sw/CMakeLists.txt D$:/daniel/projects/current_sink/software/current_sink_sw/cmake/gcc-arm-none-eabi.cmake D$:/daniel/projects/current_sink/software/current_sink_sw/cmake/stm32cubemx/CMakeLists.txt: phony
+build C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake CMakeLists.txt cmake/gcc-arm-none-eabi.cmake cmake/stm32cubemx/CMakeLists.txt: phony
 
 
 #############################################

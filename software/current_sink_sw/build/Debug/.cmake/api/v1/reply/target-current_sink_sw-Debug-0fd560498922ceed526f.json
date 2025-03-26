@@ -33,13 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 56,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -141,7 +141,8 @@
 				22,
 				23,
 				24,
-				25
+				25,
+				26
 			]
 		},
 		{
@@ -200,7 +201,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				26
+				27
 			]
 		}
 	],
@@ -258,14 +259,15 @@
 				22,
 				23,
 				24,
-				25
+				25,
+				26
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				26
+				27
 			]
 		}
 	],
@@ -281,6 +283,12 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Lib/segment_lib/segment_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/utility.c",
 			"sourceGroupIndex" : 0
 		},
 		{

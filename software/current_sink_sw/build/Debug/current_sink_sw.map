@@ -264,20 +264,32 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .text          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .data          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .bss           0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_info    0x00000000       0x22 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_abbrev  0x00000000       0x12 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_macro   0x00000000       0x11 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_macro   0x00000000      0xa8a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_line    0x00000000       0x74 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .debug_str     0x00000000     0x2d32 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .comment       0x00000000       0x44 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
- .ARM.attributes
-                0x00000000       0x2c CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .bss.memory_map
+                0x00000000       0x12 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .text.mcpShutdown
+                0x00000000       0x72 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .text.mcpWriteCommandDisplay
+                0x00000000       0x60 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .text.mcpReadData
+                0x00000000       0x3c CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
@@ -321,6 +333,78 @@ Discarded input sections
  .comment       0x00000000       0x44 CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .text          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .data          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000      0xa8a CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x24 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000      0x4cc CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0xb2 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x64 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
@@ -364,10 +448,53 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0xa8a CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x12d CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x103 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x6a CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x1df CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xaf CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x391 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000     0xf209 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x66 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000     0x34da CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x189 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x55 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x946 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x46b CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x1ae CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x130 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x199 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x1ed CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x33d CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xce CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xb0 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x22c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x61 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x4c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x15b CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x12e CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x74 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x24 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x4cc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xb2 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x64 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
@@ -575,7 +702,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .bss           0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .text.HAL_I2C_MspDeInit
-                0x00000000       0x58 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x00000000       0x54 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .debug_macro   0x00000000      0xa8a CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .debug_macro   0x00000000      0x12d CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
@@ -1247,8 +1374,6 @@ Discarded input sections
                 0x00000000       0x6c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x00000000       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .text.HAL_Delay
-                0x00000000       0x48 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x00000000       0x1c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -1358,10 +1483,6 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_MspDeInit
                 0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.HAL_I2C_Master_Transmit
-                0x00000000      0x254 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.HAL_I2C_Master_Receive
-                0x00000000      0x210 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_Slave_Transmit
                 0x00000000      0x2cc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_Slave_Receive
@@ -1394,8 +1515,6 @@ Discarded input sections
                 0x00000000      0x204 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_Mem_Read_DMA
                 0x00000000      0x200 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.HAL_I2C_IsDeviceReady
-                0x00000000      0x1f8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_Master_Seq_Transmit_IT
                 0x00000000      0x1a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_Master_Seq_Transmit_DMA
@@ -1418,13 +1537,29 @@ Discarded input sections
                 0x00000000       0x68 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_Master_Abort_IT
                 0x00000000       0xc0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_EV_IRQHandler
+                0x00000000       0x34 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_ER_IRQHandler
+                0x00000000       0xb2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_MasterTxCpltCallback
                 0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_MasterRxCpltCallback
                 0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_SlaveTxCpltCallback
+                0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_SlaveRxCpltCallback
+                0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_AddrCallback
+                0x00000000       0x20 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_ListenCpltCallback
+                0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_MemTxCpltCallback
                 0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_MemRxCpltCallback
+                0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_ErrorCallback
+                0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.HAL_I2C_AbortCpltCallback
                 0x00000000       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2C_GetState
                 0x00000000       0x18 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
@@ -1436,6 +1571,8 @@ Discarded input sections
                 0x00000000      0x288 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_Mem_ISR_IT
                 0x00000000      0x27c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_Slave_ISR_IT
+                0x00000000      0x200 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_Master_ISR_DMA
                 0x00000000      0x214 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_Mem_ISR_DMA
@@ -1446,10 +1583,22 @@ Discarded input sections
                 0x00000000       0xc8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryRead
                 0x00000000       0xc4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_ITAddrCplt
+                0x00000000      0x148 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_ITMasterSeqCplt
                 0x00000000       0x82 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_ITSlaveSeqCplt
+                0x00000000       0xc8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_ITMasterCplt
                 0x00000000      0x19c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_ITSlaveCplt
+                0x00000000      0x310 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_ITListenCplt
+                0x00000000       0xb0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_ITError
+                0x00000000      0x204 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_TreatErrorCallback
+                0x00000000       0x52 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_DMAMasterTransmitCplt
                 0x00000000       0xa0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_DMASlaveTransmitCplt
@@ -1460,20 +1609,12 @@ Discarded input sections
                 0x00000000       0x50 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_DMAError
                 0x00000000       0x32 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_WaitOnFlagUntilTimeout
-                0x00000000       0xb0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_WaitOnTXISFlagUntilTimeout
-                0x00000000       0x8c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_WaitOnSTOPFlagUntilTimeout
-                0x00000000       0x86 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_WaitOnRXNEFlagUntilTimeout
-                0x00000000      0x13c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_IsErrorOccurred
-                0x00000000      0x1f0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_TransferConfig
-                0x00000000       0x74 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_DMAAbort
+                0x00000000       0x3e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_Enable_IRQ
                 0x00000000      0x114 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_Disable_IRQ
+                0x00000000       0xc6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.I2C_ConvertOtherXferOptions
                 0x00000000       0x34 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .debug_macro   0x00000000      0xa8a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
@@ -1644,8 +1785,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
  .text.HAL_GPIO_DeInit
                 0x00000000      0x190 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .text.HAL_GPIO_ReadPin
-                0x00000000       0x3a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
  .text.HAL_GPIO_TogglePin
                 0x00000000       0x36 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
@@ -1739,6 +1878,8 @@ Discarded input sections
                 0x00000000       0xcc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .text.HAL_DMA_Abort
                 0x00000000       0x70 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .text.HAL_DMA_Abort_IT
+                0x00000000       0x8a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .text.HAL_DMA_PollForTransfer
                 0x00000000      0x132 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .text.HAL_DMA_IRQHandler
@@ -1749,12 +1890,21 @@ Discarded input sections
                 0x00000000       0xb0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .rodata.HAL_DMA_UnRegisterCallback
                 0x00000000       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .text.HAL_DMA_GetState
+                0x00000000       0x18 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .text.HAL_DMA_GetError
                 0x00000000       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .text.DMA_SetConfig
                 0x00000000       0x58 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .text.DMA_CalcBaseAndBitshift
                 0x00000000       0x38 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_info    0x00000000      0x6ea CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_abbrev  0x00000000      0x224 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_aranges
+                0x00000000       0x88 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_rnglists
+                0x00000000       0x6a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_macro   0x00000000      0x1ae CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .debug_macro   0x00000000      0xa8a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .debug_macro   0x00000000      0x12d CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
@@ -1793,6 +1943,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x4c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .debug_macro   0x00000000      0x15b CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .debug_macro   0x00000000      0x12e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xcf6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_str     0x00000000    0x82af9 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .comment       0x00000000       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_frame   0x00000000      0x1d0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .group         0x00000000        0xc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
@@ -2808,6 +2964,7 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
 END GROUP
 LOAD CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
 LOAD CMakeFiles/current_sink_sw.dir/Core/Lib/segment_lib/segment_lib.c.obj
+LOAD CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
 LOAD CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
 LOAD CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
@@ -2855,7 +3012,7 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x08000000                g_pfnVectors
                 0x080000c0                        . = ALIGN (0x4)
 
-.text           0x080000c0     0x2f78
+.text           0x080000c0     0x346c
                 0x080000c0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080000c0       0x48 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
@@ -2872,297 +3029,307 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .text.__libc_init_array
                 0x08000230       0x48 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
                 0x08000230                __libc_init_array
- .text.main     0x08000278       0x1c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
-                0x08000278                main
+ .text.bufferAdd
+                0x08000278       0x8c CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x08000278                bufferAdd
+ .text.bufferClear
+                0x08000304       0x18 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x08000304                bufferClear
+ .text.bufferTransmit
+                0x0800031c       0x50 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x0800031c                bufferTransmit
+ .text.mcpInit  0x0800036c      0x1d4 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x0800036c                mcpInit
+ .text.mcpWriteDisplay
+                0x08000540       0x64 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x08000540                mcpWriteDisplay
+ .text.mcpSetADSET
+                0x080005a4       0x66 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x080005a4                mcpSetADSET
+ .text.mcpSetICSET
+                0x0800060a       0x3a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x0800060a                mcpSetICSET
+ .text.mcpSetDISCTL
+                0x08000644       0x3a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x08000644                mcpSetDISCTL
+ .text.mcpSetMODESET
+                0x0800067e       0x44 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x0800067e                mcpSetMODESET
+ .text.mcpSetBLKCTL
+                0x080006c2       0x3a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x080006c2                mcpSetBLKCTL
+ .text.mcpSetAPCTL
+                0x080006fc       0x34 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x080006fc                mcpSetAPCTL
+ .text.txMcp    0x08000730       0x60 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+                0x08000730                txMcp
+ .text.rxMcp    0x08000790       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+                0x08000790                rxMcp
+ .text.main     0x080007d4       0xdc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                0x080007d4                main
  .text.SystemClock_Config
-                0x08000294       0xba CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
-                0x08000294                SystemClock_Config
+                0x080008b0       0xba CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                0x080008b0                SystemClock_Config
  .text.Error_Handler
-                0x0800034e        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
-                0x0800034e                Error_Handler
- *fill*         0x0800035a        0x2 
+                0x0800096a        0xc CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                0x0800096a                Error_Handler
+ *fill*         0x08000976        0x2 
  .text.MX_GPIO_Init
-                0x0800035c      0x110 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
-                0x0800035c                MX_GPIO_Init
+                0x08000978      0x110 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+                0x08000978                MX_GPIO_Init
  .text.MX_ADC_Init
-                0x0800046c       0xd0 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
-                0x0800046c                MX_ADC_Init
+                0x08000a88       0xd0 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+                0x08000a88                MX_ADC_Init
  .text.HAL_ADC_MspInit
-                0x0800053c       0x9c CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
-                0x0800053c                HAL_ADC_MspInit
+                0x08000b58       0x9c CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+                0x08000b58                HAL_ADC_MspInit
  .text.MX_I2C1_Init
-                0x080005d8       0x80 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
-                0x080005d8                MX_I2C1_Init
+                0x08000bf4       0x80 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x08000bf4                MX_I2C1_Init
  .text.HAL_I2C_MspInit
-                0x08000658       0xf8 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
-                0x08000658                HAL_I2C_MspInit
+                0x08000c74       0xe8 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x08000c74                HAL_I2C_MspInit
  .text.NMI_Handler
-                0x08000750        0x8 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x08000750                NMI_Handler
+                0x08000d5c        0x8 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000d5c                NMI_Handler
  .text.HardFault_Handler
-                0x08000758        0x8 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x08000758                HardFault_Handler
+                0x08000d64        0x8 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000d64                HardFault_Handler
  .text.SVC_Handler
-                0x08000760        0xa CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x08000760                SVC_Handler
+                0x08000d6c        0xa CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000d6c                SVC_Handler
  .text.PendSV_Handler
-                0x0800076a        0xa CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x0800076a                PendSV_Handler
+                0x08000d76        0xa CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000d76                PendSV_Handler
  .text.SysTick_Handler
-                0x08000774        0xe CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x08000774                SysTick_Handler
+                0x08000d80        0xe CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000d80                SysTick_Handler
  .text.EXTI0_1_IRQHandler
-                0x08000782       0x16 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x08000782                EXTI0_1_IRQHandler
+                0x08000d8e       0x16 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000d8e                EXTI0_1_IRQHandler
  .text.EXTI2_3_IRQHandler
-                0x08000798       0x10 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x08000798                EXTI2_3_IRQHandler
+                0x08000da4       0x10 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000da4                EXTI2_3_IRQHandler
  .text.ADC1_IRQHandler
-                0x080007a8       0x18 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x080007a8                ADC1_IRQHandler
- .text.I2C1_IRQHandler
-                0x080007c0       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                0x080007c0                I2C1_IRQHandler
+                0x08000db4       0x18 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x08000db4                ADC1_IRQHandler
  .text.HAL_MspInit
-                0x080007f0       0x48 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
-                0x080007f0                HAL_MspInit
+                0x08000dcc       0x48 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+                0x08000dcc                HAL_MspInit
  .text.HAL_ADC_Init
-                0x08000838      0x280 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                0x08000838                HAL_ADC_Init
+                0x08000e14      0x280 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x08000e14                HAL_ADC_Init
  .text.HAL_ADC_IRQHandler
-                0x08000ab8      0x148 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                0x08000ab8                HAL_ADC_IRQHandler
+                0x08001094      0x148 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x08001094                HAL_ADC_IRQHandler
  .text.HAL_ADC_ConvCpltCallback
-                0x08000c00       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                0x08000c00                HAL_ADC_ConvCpltCallback
+                0x080011dc       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x080011dc                HAL_ADC_ConvCpltCallback
  .text.HAL_ADC_LevelOutOfWindowCallback
-                0x08000c10       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                0x08000c10                HAL_ADC_LevelOutOfWindowCallback
+                0x080011ec       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x080011ec                HAL_ADC_LevelOutOfWindowCallback
  .text.HAL_ADC_ErrorCallback
-                0x08000c20       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                0x08000c20                HAL_ADC_ErrorCallback
+                0x080011fc       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x080011fc                HAL_ADC_ErrorCallback
  .text.HAL_ADC_ConfigChannel
-                0x08000c30      0x21c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
-                0x08000c30                HAL_ADC_ConfigChannel
+                0x0800120c      0x21c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x0800120c                HAL_ADC_ConfigChannel
  .text.HAL_RCC_OscConfig
-                0x08000e4c      0x70c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x08000e4c                HAL_RCC_OscConfig
+                0x08001428      0x70c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x08001428                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08001558      0x1b4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x08001558                HAL_RCC_ClockConfig
+                0x08001b34      0x1b4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x08001b34                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0800170c       0xe4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x0800170c                HAL_RCC_GetSysClockFreq
+                0x08001ce8       0xe4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x08001ce8                HAL_RCC_GetSysClockFreq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x080017f0      0x1dc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
-                0x080017f0                HAL_RCCEx_PeriphCLKConfig
+                0x08001dcc      0x1dc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                0x08001dcc                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_Init
-                0x080019cc       0x28 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x080019cc                HAL_Init
+                0x08001fa8       0x28 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x08001fa8                HAL_Init
  .text.HAL_InitTick
-                0x080019f4       0x68 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x080019f4                HAL_InitTick
+                0x08001fd0       0x68 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x08001fd0                HAL_InitTick
  .text.HAL_IncTick
-                0x08001a5c       0x24 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x08001a5c                HAL_IncTick
+                0x08002038       0x24 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x08002038                HAL_IncTick
  .text.HAL_GetTick
-                0x08001a80       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x08001a80                HAL_GetTick
+                0x0800205c       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0800205c                HAL_GetTick
+ .text.HAL_Delay
+                0x08002070       0x48 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x08002070                HAL_Delay
  .text.HAL_I2C_Init
-                0x08001a94      0x14c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001a94                HAL_I2C_Init
- .text.HAL_I2C_EV_IRQHandler
-                0x08001be0       0x34 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001be0                HAL_I2C_EV_IRQHandler
- .text.HAL_I2C_ER_IRQHandler
-                0x08001c14       0xb2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001c14                HAL_I2C_ER_IRQHandler
- .text.HAL_I2C_SlaveTxCpltCallback
-                0x08001cc6       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001cc6                HAL_I2C_SlaveTxCpltCallback
- .text.HAL_I2C_SlaveRxCpltCallback
-                0x08001cd6       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001cd6                HAL_I2C_SlaveRxCpltCallback
- .text.HAL_I2C_AddrCallback
-                0x08001ce6       0x20 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001ce6                HAL_I2C_AddrCallback
- .text.HAL_I2C_ListenCpltCallback
-                0x08001d06       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001d06                HAL_I2C_ListenCpltCallback
- .text.HAL_I2C_ErrorCallback
-                0x08001d16       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001d16                HAL_I2C_ErrorCallback
- .text.HAL_I2C_AbortCpltCallback
-                0x08001d26       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
-                0x08001d26                HAL_I2C_AbortCpltCallback
- *fill*         0x08001d36        0x2 
- .text.I2C_Slave_ISR_IT
-                0x08001d38      0x200 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_ITAddrCplt
-                0x08001f38      0x148 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_ITSlaveSeqCplt
-                0x08002080       0xc8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_ITSlaveCplt
-                0x08002148      0x310 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_ITListenCplt
-                0x08002458       0xb0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_ITError
-                0x08002508      0x204 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_TreatErrorCallback
-                0x0800270c       0x52 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x080020b8      0x14c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x080020b8                HAL_I2C_Init
+ .text.HAL_I2C_Master_Transmit
+                0x08002204      0x254 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x08002204                HAL_I2C_Master_Transmit
+ .text.HAL_I2C_Master_Receive
+                0x08002458      0x210 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x08002458                HAL_I2C_Master_Receive
+ .text.HAL_I2C_IsDeviceReady
+                0x08002668      0x1f8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x08002668                HAL_I2C_IsDeviceReady
  .text.I2C_Flush_TXDR
-                0x0800275e       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_DMAAbort
-                0x080027a2       0x3e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .text.I2C_Disable_IRQ
-                0x080027e0       0xc6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- *fill*         0x080028a6        0x2 
+                0x08002860       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_WaitOnFlagUntilTimeout
+                0x080028a4       0xb0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_WaitOnTXISFlagUntilTimeout
+                0x08002954       0x8c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_WaitOnSTOPFlagUntilTimeout
+                0x080029e0       0x86 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ *fill*         0x08002a66        0x2 
+ .text.I2C_WaitOnRXNEFlagUntilTimeout
+                0x08002a68      0x13c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_IsErrorOccurred
+                0x08002ba4      0x1f0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .text.I2C_TransferConfig
+                0x08002d94       0x74 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x080028a8       0x98 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
-                0x080028a8                HAL_I2CEx_ConfigAnalogFilter
+                0x08002e08       0x98 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                0x08002e08                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x08002940       0x98 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
-                0x08002940                HAL_I2CEx_ConfigDigitalFilter
+                0x08002ea0       0x98 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                0x08002ea0                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_GPIO_Init
-                0x080029d8      0x2d0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x080029d8                HAL_GPIO_Init
+                0x08002f38      0x2d0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x08002f38                HAL_GPIO_Init
+ .text.HAL_GPIO_ReadPin
+                0x08003208       0x3a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x08003208                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x08002ca8       0x3a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x08002ca8                HAL_GPIO_WritePin
- *fill*         0x08002ce2        0x2 
+                0x08003242       0x3a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x08003242                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08002ce4       0x38 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x08002ce4                HAL_GPIO_EXTI_IRQHandler
+                0x0800327c       0x38 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x0800327c                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x08002d1c       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x08002d1c                HAL_GPIO_EXTI_Callback
- .text.HAL_DMA_Abort_IT
-                0x08002d30       0x8a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
-                0x08002d30                HAL_DMA_Abort_IT
- .text.HAL_DMA_GetState
-                0x08002dba       0x18 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
-                0x08002dba                HAL_DMA_GetState
- *fill*         0x08002dd2        0x2 
+                0x080032b4       0x14 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x080032b4                HAL_GPIO_EXTI_Callback
  .text.__NVIC_EnableIRQ
-                0x08002dd4       0x34 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x080032c8       0x34 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08002e08       0xdc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x080032fc       0xdc CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x08002ee4       0x48 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x080033d8       0x48 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriority
-                0x08002f2c       0x2a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x08002f2c                HAL_NVIC_SetPriority
+                0x08003420       0x2a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x08003420                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08002f56       0x20 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x08002f56                HAL_NVIC_EnableIRQ
+                0x0800344a       0x20 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0800344a                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08002f76       0x1a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x08002f76                HAL_SYSTICK_Config
+                0x0800346a       0x1a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0800346a                HAL_SYSTICK_Config
  .text.SystemInit
-                0x08002f90        0xa CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
-                0x08002f90                SystemInit
- *fill*         0x08002f9a        0x2 
+                0x08003484        0xa CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+                0x08003484                SystemInit
+ *fill*         0x0800348e        0x2 
  .text.Reset_Handler
-                0x08002f9c       0x80 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
-                0x08002f9c                Reset_Handler
+                0x08003490       0x80 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+                0x08003490                Reset_Handler
  .text.Default_Handler
-                0x0800301c        0x2 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
-                0x0800301c                TIM1_CC_IRQHandler
-                0x0800301c                TSC_IRQHandler
-                0x0800301c                RCC_CRS_IRQHandler
-                0x0800301c                SPI1_IRQHandler
-                0x0800301c                TIM17_IRQHandler
-                0x0800301c                CEC_CAN_IRQHandler
-                0x0800301c                RTC_IRQHandler
-                0x0800301c                PVD_VDDIO2_IRQHandler
-                0x0800301c                TIM16_IRQHandler
-                0x0800301c                TIM3_IRQHandler
-                0x0800301c                EXTI4_15_IRQHandler
-                0x0800301c                DMA1_Channel1_IRQHandler
-                0x0800301c                Default_Handler
-                0x0800301c                TIM14_IRQHandler
-                0x0800301c                DMA1_Channel4_5_IRQHandler
-                0x0800301c                USB_IRQHandler
-                0x0800301c                SPI2_IRQHandler
-                0x0800301c                WWDG_IRQHandler
-                0x0800301c                TIM2_IRQHandler
-                0x0800301c                DMA1_Channel2_3_IRQHandler
-                0x0800301c                USART2_IRQHandler
-                0x0800301c                FLASH_IRQHandler
-                0x0800301c                USART1_IRQHandler
-                0x0800301c                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x08003510        0x2 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+                0x08003510                TIM1_CC_IRQHandler
+                0x08003510                TSC_IRQHandler
+                0x08003510                I2C1_IRQHandler
+                0x08003510                RCC_CRS_IRQHandler
+                0x08003510                SPI1_IRQHandler
+                0x08003510                TIM17_IRQHandler
+                0x08003510                CEC_CAN_IRQHandler
+                0x08003510                RTC_IRQHandler
+                0x08003510                PVD_VDDIO2_IRQHandler
+                0x08003510                TIM16_IRQHandler
+                0x08003510                TIM3_IRQHandler
+                0x08003510                EXTI4_15_IRQHandler
+                0x08003510                DMA1_Channel1_IRQHandler
+                0x08003510                Default_Handler
+                0x08003510                TIM14_IRQHandler
+                0x08003510                DMA1_Channel4_5_IRQHandler
+                0x08003510                USB_IRQHandler
+                0x08003510                SPI2_IRQHandler
+                0x08003510                WWDG_IRQHandler
+                0x08003510                TIM2_IRQHandler
+                0x08003510                DMA1_Channel2_3_IRQHandler
+                0x08003510                USART2_IRQHandler
+                0x08003510                FLASH_IRQHandler
+                0x08003510                USART1_IRQHandler
+                0x08003510                TIM1_BRK_UP_TRG_COM_IRQHandler
  *(.glue_7)
- .glue_7        0x0800301e        0x0 linker stubs
+ .glue_7        0x08003512        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800301e        0x0 linker stubs
+ .glue_7t       0x08003512        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0800301e        0x2 
- .eh_frame      0x08003020        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+ *fill*         0x08003512        0x2 
+ .eh_frame      0x08003514        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x08003020        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
-                0x08003020                _init
- .init          0x08003024        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtn.o
+ .init          0x08003514        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
+                0x08003514                _init
+ .init          0x08003518        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x0800302c        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
-                0x0800302c                _fini
- .fini          0x08003030        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtn.o
-                0x08003038                        . = ALIGN (0x4)
-                0x08003038                        _etext = .
+ .fini          0x08003520        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
+                0x08003520                _fini
+ .fini          0x08003524        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtn.o
+                0x0800352c                        . = ALIGN (0x4)
+                0x0800352c                        _etext = .
 
-.vfp11_veneer   0x08003038        0x0
- .vfp11_veneer  0x08003038        0x0 linker stubs
+.vfp11_veneer   0x0800352c        0x0
+ .vfp11_veneer  0x0800352c        0x0 linker stubs
 
-.v4_bx          0x08003038        0x0
- .v4_bx         0x08003038        0x0 linker stubs
+.v4_bx          0x0800352c        0x0
+ .v4_bx         0x0800352c        0x0 linker stubs
 
-.iplt           0x08003038        0x0
- .iplt          0x08003038        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0800352c        0x0
+ .iplt          0x0800352c        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x08003038       0x30
-                0x08003038                        . = ALIGN (0x4)
+.rodata         0x0800352c       0x30
+                0x0800352c                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.aPLLMULFactorTable.1
-                0x08003038       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x0800352c       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x08003048       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x0800353c       0x10 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .rodata.AHBPrescTable
-                0x08003058       0x10 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
-                0x08003058                AHBPrescTable
-                0x08003068                        . = ALIGN (0x4)
+                0x0800354c       0x10 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+                0x0800354c                AHBPrescTable
+                0x0800355c                        . = ALIGN (0x4)
 
-.rel.dyn        0x08003068        0x0
- .rel.iplt      0x08003068        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0800355c        0x0
+ .rel.iplt      0x0800355c        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08003068        0x0
-                0x08003068                        __exidx_start = .
+.ARM            0x0800355c        0x0
+                0x0800355c                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08003068                        __exidx_end = .
+                0x0800355c                        __exidx_end = .
 
-.preinit_array  0x08003068        0x0
-                0x08003068                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800355c        0x0
+                0x0800355c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08003068                        PROVIDE (__preinit_array_end = .)
+                0x0800355c                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08003068        0x4
-                0x08003068                        PROVIDE (__init_array_start = .)
+.init_array     0x0800355c        0x4
+                0x0800355c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08003068        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0800306c                        PROVIDE (__init_array_end = .)
+ .init_array    0x0800355c        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x08003560                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x0800306c        0x4
+.fini_array     0x08003560        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800306c        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x08003560        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08003070                        _sidata = LOADADDR (.data)
+                0x08003564                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0xc load address 0x08003070
+.data           0x20000000        0xc load address 0x08003564
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3180,37 +3347,48 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        _edata = .
 
-.igot.plt       0x2000000c        0x0 load address 0x0800307c
+.igot.plt       0x2000000c        0x0 load address 0x08003570
  .igot.plt      0x2000000c        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
                 0x2000000c                        . = ALIGN (0x4)
 
-.bss            0x2000000c       0xb4 load address 0x0800307c
+.bss            0x2000000c      0x100 load address 0x08003570
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.bss)
  .bss           0x2000000c       0x1c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.bss*)
- .bss.hadc      0x20000028       0x40 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
-                0x20000028                hadc
- .bss.hi2c1     0x20000068       0x54 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
-                0x20000068                hi2c1
- .bss.uwTick    0x200000bc        0x4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x200000bc                uwTick
+ .bss.mcpTransmit
+                0x20000028        0x4 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x20000028                mcpTransmit
+ .bss.mcpReceive
+                0x2000002c        0x4 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x2000002c                mcpReceive
+ .bss.mcp_buffer
+                0x20000030       0x41 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                0x20000030                mcp_buffer
+ *fill*         0x20000071        0x3 
+ .bss.hadc      0x20000074       0x40 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+                0x20000074                hadc
+ .bss.hi2c1     0x200000b4       0x54 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x200000b4                hi2c1
+ .bss.uwTick    0x20000108        0x4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x20000108                uwTick
  *(COMMON)
-                0x200000c0                        . = ALIGN (0x4)
-                0x200000c0                        _ebss = .
-                0x200000c0                        __bss_end__ = _ebss
+                0x2000010c                        . = ALIGN (0x4)
+                0x2000010c                        _ebss = .
+                0x2000010c                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200000c0      0x600 load address 0x0800307c
-                0x200000c0                        . = ALIGN (0x8)
+                0x2000010c      0x604 load address 0x08003570
+                0x20000110                        . = ALIGN (0x8)
+ *fill*         0x2000010c        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x200000c0                        PROVIDE (_end = .)
-                0x200002c0                        . = (. + _Min_Heap_Size)
- *fill*         0x200000c0      0x200 
-                0x200006c0                        . = (. + _Min_Stack_Size)
- *fill*         0x200002c0      0x400 
-                0x200006c0                        . = ALIGN (0x8)
+                0x20000110                        PROVIDE (_end = .)
+                0x20000310                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000110      0x200 
+                0x20000710                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000310      0x400 
+                0x20000710                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3233,49 +3411,53 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .ARM.attributes
                 0x00000076       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
  .ARM.attributes
-                0x000000a2       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                0x000000a2       0x2c CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .ARM.attributes
-                0x000000ce       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+                0x000000ce       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
  .ARM.attributes
-                0x000000fa       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+                0x000000fa       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x00000126       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x00000126       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
  .ARM.attributes
-                0x00000152       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x00000152       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
  .ARM.attributes
-                0x0000017e       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+                0x0000017e       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .ARM.attributes
-                0x000001aa       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x000001aa       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
  .ARM.attributes
-                0x000001d6       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x000001d6       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
  .ARM.attributes
-                0x00000202       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                0x00000202       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .ARM.attributes
-                0x0000022e       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000022e       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .ARM.attributes
-                0x0000025a       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x0000025a       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x00000286       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                0x00000286       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .ARM.attributes
-                0x000002b2       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x000002b2       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .ARM.attributes
-                0x000002de       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+                0x000002de       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
  .ARM.attributes
-                0x0000030a       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000030a       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
  .ARM.attributes
-                0x00000336       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+                0x00000336       0x2c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .ARM.attributes
-                0x00000362       0x21 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+                0x00000362       0x2c CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
  .ARM.attributes
-                0x00000383       0x1e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x0000038e       0x21 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
  .ARM.attributes
-                0x000003a1       0x1e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000003af       0x1e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000003bf       0x1e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtn.o
+                0x000003cd       0x1e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000003eb       0x1e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtn.o
 
 .comment        0x00000000       0x43
- .comment       0x00000000       0x43 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .comment       0x00000000       0x43 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
                                  0x44 (size before relaxing)
+ .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
@@ -3288,247 +3470,275 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .comment       0x00000043       0x44 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
 
-.debug_frame    0x00000000     0x1d7c
+.debug_frame    0x00000000     0x1dc0
  .debug_frame   0x00000000       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
  .debug_frame   0x00000020       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000004c       0x68 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_frame   0x000000b4       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
- .debug_frame   0x000000e4       0x70 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
- .debug_frame   0x00000154       0x6c CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
- .debug_frame   0x000001c0      0x10c CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
- .debug_frame   0x000002cc       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
- .debug_frame   0x000002fc      0x3a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_frame   0x0000069c      0x198 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_frame   0x00000834      0x180 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_frame   0x000009b4      0x2a4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_frame   0x00000c58      0xa68 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_frame   0x000016c0       0xd0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_frame   0x00001790      0x110 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_frame   0x000018a0      0x1d0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_frame   0x00001a70      0x2a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_frame   0x00001d10       0x4c CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
- .debug_frame   0x00001d5c       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000004c      0x1d4 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_frame   0x00000220       0x58 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_frame   0x00000278       0x6c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_frame   0x000002e4       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x00000314       0x70 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+ .debug_frame   0x00000384       0x6c CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+ .debug_frame   0x000003f0       0xf0 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+ .debug_frame   0x000004e0       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_frame   0x00000510      0x3a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_frame   0x000008b0      0x198 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_frame   0x00000a48      0x180 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00000bc8      0x2a4 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_frame   0x00000e6c      0xa68 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_frame   0x000018d4       0xd0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_frame   0x000019a4      0x110 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_frame   0x00001ab4      0x2a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_frame   0x00001d54       0x4c CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_frame   0x00001da0       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
 
-.debug_info     0x00000000     0x850d
- .debug_info    0x00000000      0x337 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_info    0x00000337      0x42c CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
- .debug_info    0x00000763      0x958 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
- .debug_info    0x000010bb      0x9f4 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
- .debug_info    0x00001aaf      0x8ed CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
- .debug_info    0x0000239c      0x199 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
- .debug_info    0x00002535      0xc6a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_info    0x0000319f      0x83f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_info    0x000039de      0x600 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_info    0x00003fde      0x69d CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_info    0x0000467b     0x20c5 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_info    0x00006740      0x824 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_info    0x00006f64      0x5a6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_info    0x0000750a      0x6ea CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_info    0x00007bf4      0x6a7 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_info    0x0000829b      0x242 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
- .debug_info    0x000084dd       0x30 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+.debug_info     0x00000000     0x8a0c
+ .debug_info    0x00000000      0x6e7 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_info    0x000006e7      0x706 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_info    0x00000ded      0x59d CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_info    0x0000138a      0x42c CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+ .debug_info    0x000017b6      0x958 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+ .debug_info    0x0000210e      0x8dc CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+ .debug_info    0x000029ea      0x59b CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+ .debug_info    0x00002f85      0x199 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_info    0x0000311e      0xc6a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_info    0x00003d88      0x83f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_info    0x000045c7      0x600 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_info    0x00004bc7      0x69d CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_info    0x00005264     0x20c5 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_info    0x00007329      0x824 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_info    0x00007b4d      0x5a6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_info    0x000080f3      0x6a7 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_info    0x0000879a      0x242 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_info    0x000089dc       0x30 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
 
-.debug_abbrev   0x00000000     0x1e96
- .debug_abbrev  0x00000000      0x192 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000192      0x174 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00000306      0x211 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
- .debug_abbrev  0x00000517      0x234 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
- .debug_abbrev  0x0000074b      0x1a0 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
- .debug_abbrev  0x000008eb       0xc6 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
- .debug_abbrev  0x000009b1      0x259 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_abbrev  0x00000c0a      0x28c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_abbrev  0x00000e96      0x1da CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00001070      0x247 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_abbrev  0x000012b7      0x261 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_abbrev  0x00001518      0x1c3 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_abbrev  0x000016db      0x1cb CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_abbrev  0x000018a6      0x224 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_abbrev  0x00001aca      0x28c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_abbrev  0x00001d56      0x11c CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
- .debug_abbrev  0x00001e72       0x24 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+.debug_abbrev   0x00000000     0x209f
+ .debug_abbrev  0x00000000      0x203 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_abbrev  0x00000203      0x1b7 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_abbrev  0x000003ba      0x230 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x000005ea      0x174 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x0000075e      0x211 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+ .debug_abbrev  0x0000096f      0x215 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+ .debug_abbrev  0x00000b84      0x194 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+ .debug_abbrev  0x00000d18       0xc6 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_abbrev  0x00000dde      0x259 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_abbrev  0x00001037      0x28c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_abbrev  0x000012c3      0x1da CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x0000149d      0x247 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_abbrev  0x000016e4      0x261 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_abbrev  0x00001945      0x1c3 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_abbrev  0x00001b08      0x1cb CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001cd3      0x28c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001f5f      0x11c CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_abbrev  0x0000207b       0x24 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
 
-.debug_aranges  0x00000000      0x8c8
+.debug_aranges  0x00000000      0x8e8
  .debug_aranges
-                0x00000000       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                0x00000000       0x88 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .debug_aranges
-                0x00000030       0x20 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+                0x00000088       0x28 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
  .debug_aranges
-                0x00000050       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+                0x000000b0       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00000080       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x000000e0       0x20 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
  .debug_aranges
-                0x000000b0       0x60 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x00000100       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
  .debug_aranges
-                0x00000110       0x20 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+                0x00000130       0x30 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .debug_aranges
-                0x00000130       0xf8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x00000160       0x58 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
  .debug_aranges
-                0x00000228       0x80 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x000001b8       0x20 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
  .debug_aranges
-                0x000002a8       0x78 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                0x000001d8       0xf8 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .debug_aranges
-                0x00000320       0xd0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x000002d0       0x80 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .debug_aranges
-                0x000003f0      0x2a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x00000350       0x78 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x00000690       0x48 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                0x000003c8       0xd0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_aranges
-                0x000006d8       0x58 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x00000498      0x2a0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .debug_aranges
-                0x00000730       0x88 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+                0x00000738       0x48 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
  .debug_aranges
-                0x000007b8       0xc0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x00000780       0x58 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000878       0x28 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+                0x000007d8       0xc0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .debug_aranges
-                0x000008a0       0x28 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+                0x00000898       0x28 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_aranges
+                0x000008c0       0x28 CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
 
 .debug_rnglists
-                0x00000000      0x6ab
+                0x00000000      0x6b8
  .debug_rnglists
-                0x00000000       0x20 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                0x00000000       0x63 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
  .debug_rnglists
-                0x00000020       0x14 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+                0x00000063       0x19 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
  .debug_rnglists
-                0x00000034       0x21 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+                0x0000007c       0x21 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00000055       0x21 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                0x0000009d       0x14 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x00000076       0x43 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                0x000000b1       0x21 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
  .debug_rnglists
-                0x000000b9       0x13 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+                0x000000d2       0x21 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
  .debug_rnglists
-                0x000000cc       0xc6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+                0x000000f3       0x3d CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
  .debug_rnglists
-                0x00000192       0x61 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x00000130       0x13 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
  .debug_rnglists
-                0x000001f3       0x5a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                0x00000143       0xc6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
  .debug_rnglists
-                0x0000024d       0x97 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x00000209       0x61 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000002e4      0x229 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+                0x0000026a       0x5a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
  .debug_rnglists
-                0x0000050d       0x35 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+                0x000002c4       0x97 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
  .debug_rnglists
-                0x00000542       0x3f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x0000035b      0x229 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
  .debug_rnglists
-                0x00000581       0x6a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+                0x00000584       0x35 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
  .debug_rnglists
-                0x000005eb       0x8c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x000005b9       0x3f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
  .debug_rnglists
-                0x00000677       0x1a CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+                0x000005f8       0x8c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000691       0x1a CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+                0x00000684       0x1a CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_rnglists
+                0x0000069e       0x1a CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
 
-.debug_macro    0x00000000    0x16e26
- .debug_macro   0x00000000      0x1df CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000001df      0x12d CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0000030c       0x2e CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0000033a       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0000035c       0x8e CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000003ea       0x51 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0000043b       0x1c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00000457       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00000479       0xaf CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00000528      0x391 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000008b9     0xf209 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0000fac2       0x66 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0000fb28     0x34da CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00013002      0x189 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0001318b       0x55 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000131e0      0x946 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00013b26      0x46b CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00013f91      0x1ae CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0001413f      0x130 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0001426f      0x199 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014408      0x1ed CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000145f5       0x34 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014629       0x43 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0001466c       0x28 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014694      0x33d CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000149d1       0xce CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014a9f       0xb0 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014b4f      0x182 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014cd1      0x22c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014efd       0x61 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00014f5e       0xa5 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00015003       0x4c CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x0001504f      0x15b CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000151aa      0x12e CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x000152d8       0x6a CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_macro   0x00015342      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
- .debug_macro   0x00015509      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
- .debug_macro   0x000156d0      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
- .debug_macro   0x00015897      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
- .debug_macro   0x00015a5e      0x1bd CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
- .debug_macro   0x00015c1b      0x1d2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_macro   0x00015ded      0x1c0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_macro   0x00015fad      0x1c0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_macro   0x0001616d      0x1d2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_macro   0x0001633f      0x27a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_macro   0x000165b9      0x1ae CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_macro   0x00016767      0x1b5 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_macro   0x0001691c      0x1ae CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_macro   0x00016aca      0x1ae CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_macro   0x00016c78      0x1ae CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+.debug_macro    0x00000000    0x18728
+ .debug_macro   0x00000000       0xd0 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x000000d0      0xa8a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000b5a       0x22 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000b7c       0x6e CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000bea       0x24 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000c0e       0x94 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000ca2       0x3c CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000cde      0x103 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000de1       0x3a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000e1b       0x57 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000e72       0x6a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00000edc      0x1df CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x000010bb       0x89 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00001144      0x4cc CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00001610       0xb2 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x000016c2       0x64 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00001726       0x1c CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_macro   0x00001742      0x244 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001986      0x12d CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001ab3       0x2e CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001ae1       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001b03       0x8e CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001b91       0x51 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001be2       0x1c CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001bfe       0x22 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001c20       0xaf CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00001ccf      0x391 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00002060     0xf209 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00011269       0x66 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000112cf     0x34da CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000147a9      0x189 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00014932       0x55 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00014987      0x946 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000152cd      0x46b CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015738      0x1ae CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000158e6      0x130 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015a16      0x199 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015baf      0x1ed CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015d9c       0x34 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015dd0       0x43 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015e13       0x28 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00015e3b      0x33d CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016178       0xce CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016246       0xb0 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000162f6      0x182 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016478      0x22c CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000166a4       0x61 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016705       0xa5 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000167aa       0x4c CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x000167f6      0x15b CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016951      0x12e CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016a7f       0x6a CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016ae9       0x74 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016b5d       0x35 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_macro   0x00016b92      0x260 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016df2      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x00016fb9      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+ .debug_macro   0x00017180      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+ .debug_macro   0x00017347      0x1c7 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+ .debug_macro   0x0001750e      0x1bd CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_macro   0x000176cb      0x1d2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_macro   0x0001789d      0x1c0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_macro   0x00017a5d      0x1c0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_macro   0x00017c1d      0x1d2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_macro   0x00017def      0x27a CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_macro   0x00018069      0x1ae CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_macro   0x00018217      0x1b5 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_macro   0x000183cc      0x1ae CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_macro   0x0001857a      0x1ae CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
 
-.debug_line     0x00000000     0xd476
- .debug_line    0x00000000      0x7f2 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
- .debug_line    0x000007f2      0x77e CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000f70      0x7ea CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
- .debug_line    0x0000175a      0x7e8 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
- .debug_line    0x00001f42      0x831 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
- .debug_line    0x00002773      0x757 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
- .debug_line    0x00002eca     0x122f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
- .debug_line    0x000040f9      0xe5f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_line    0x00004f58      0xc13 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_line    0x00005b6b      0x9d2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_line    0x0000653d     0x3a8c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
- .debug_line    0x00009fc9      0x975 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
- .debug_line    0x0000a93e      0xb58 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_line    0x0000b496      0xcf6 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_line    0x0000c18c      0xa7e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_line    0x0000cc0a      0x7df CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
- .debug_line    0x0000d3e9       0x8d CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+.debug_line     0x00000000     0xd7ad
+ .debug_line    0x00000000      0x62a CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+ .debug_line    0x0000062a      0x8b2 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+ .debug_line    0x00000edc      0x972 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+ .debug_line    0x0000184e      0x77e CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00001fcc      0x7ea CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+ .debug_line    0x000027b6      0x7e5 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+ .debug_line    0x00002f9b      0x805 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+ .debug_line    0x000037a0      0x757 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_line    0x00003ef7     0x122f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_line    0x00005126      0xe5f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_line    0x00005f85      0xc13 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_line    0x00006b98      0x9d2 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_line    0x0000756a     0x3a8c CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_line    0x0000aff6      0x975 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_line    0x0000b96b      0xb58 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_line    0x0000c4c3      0xa7e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_line    0x0000cf41      0x7df CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_line    0x0000d720       0x8d CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
 
-.debug_str      0x00000000    0x855e8
- .debug_str     0x00000000    0x828a0 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
-                              0x82b07 (size before relaxing)
- .debug_str     0x000828a0      0x2aa CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
+.debug_str      0x00000000    0x86f76
+ .debug_str     0x00000000     0x5710 CMakeFiles/current_sink_sw.dir/Core/Lib/MCP4728/MCP4728.c.obj
+                               0x58a5 (size before relaxing)
+ .debug_str     0x00005710    0x7eed4 CMakeFiles/current_sink_sw.dir/Core/Src/utility.c.obj
+                              0x8461a (size before relaxing)
+ .debug_str     0x000845e4      0x332 CMakeFiles/current_sink_sw.dir/Core/Src/main.c.obj
+                              0x8449f (size before relaxing)
+ .debug_str     0x00084916      0x243 CMakeFiles/current_sink_sw.dir/Core/Src/gpio.c.obj
                               0x82b5d (size before relaxing)
- .debug_str     0x00082b4a      0x3e4 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
+ .debug_str     0x00084b59      0x247 CMakeFiles/current_sink_sw.dir/Core/Src/adc.c.obj
                               0x82f71 (size before relaxing)
- .debug_str     0x00082f2e      0x2bf CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
-                              0x8306e (size before relaxing)
- .debug_str     0x000831ed      0x146 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
-                              0x82faf (size before relaxing)
- .debug_str     0x00083333       0x62 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
+ .debug_str     0x00084da0       0x81 CMakeFiles/current_sink_sw.dir/Core/Src/i2c.c.obj
+                              0x82e86 (size before relaxing)
+ .debug_str     0x00084e21      0x10a CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_it.c.obj
+                              0x82c9c (size before relaxing)
+ .debug_str     0x00084f2b       0x62 CMakeFiles/current_sink_sw.dir/Core/Src/stm32f0xx_hal_msp.c.obj
                               0x828be (size before relaxing)
- .debug_str     0x00083395      0x3d9 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+ .debug_str     0x00084f8d      0x3e0 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
                               0x82e60 (size before relaxing)
- .debug_str     0x0008376e      0x29f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_str     0x0008536d      0x29f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
                               0x82b9a (size before relaxing)
- .debug_str     0x00083a0d      0x31f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_str     0x0008560c      0x31f CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
                               0x82b3d (size before relaxing)
- .debug_str     0x00083d2c      0x371 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_str     0x0008592b      0x367 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
                               0x82d05 (size before relaxing)
- .debug_str     0x0008409d      0xe57 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+ .debug_str     0x00085c92      0xe3e CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
                               0x83ab1 (size before relaxing)
- .debug_str     0x00084ef4      0x104 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+ .debug_str     0x00086ad0      0x104 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
                               0x82cb1 (size before relaxing)
- .debug_str     0x00084ff8      0x119 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_str     0x00086bd4      0x108 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
                               0x828f4 (size before relaxing)
- .debug_str     0x00085111      0x23d CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
-                              0x82af9 (size before relaxing)
- .debug_str     0x0008534e      0x1b9 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_str     0x00086cdc      0x1b9 CMakeFiles/current_sink_sw.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
                               0x82af6 (size before relaxing)
- .debug_str     0x00085507       0x76 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
+ .debug_str     0x00086e95       0x76 CMakeFiles/current_sink_sw.dir/Core/Src/system_stm32f0xx.c.obj
                               0x82753 (size before relaxing)
- .debug_str     0x0008557d       0x6b CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
+ .debug_str     0x00086f0b       0x6b CMakeFiles/current_sink_sw.dir/startup_stm32f042x6.s.obj
                                  0xb0 (size before relaxing)
 
 .debug_line_str

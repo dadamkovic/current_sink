@@ -17,7 +17,7 @@
 
 typedef enum
 {
-  MCP_DISPLAY,
+  MCP_RAM_WRITE,
   MCP_COMMAND
 } TDef_CommandDisplay;
 
@@ -41,7 +41,7 @@ typedef struct
 } TdefICSET_Settings;
 
 typedef union{
-  TdefICSET_Settings fields;
+  TdefICSET_Settings settings;
   uint8_t raw;
 } TdefICSET;
 
@@ -65,9 +65,61 @@ typedef struct
 } TdefDISCTL_Settings;
 
 typedef union{
-  TdefDISCTL_Settings fields;
+  TdefDISCTL_Settings settings;
   uint8_t raw;
 } TdefDISCTL;
+
+
+#define DISP_OFF 0b0
+#define DISP_ON 0b1
+
+typedef struct
+{
+  uint8_t _PADDING0: 3;
+  uint8_t DISP_STAT: 1;
+  uint8_t _PADDING1: 4;
+} TdefMODESET_Settings;
+
+typedef union{
+  TdefMODESET_Settings settings;
+  uint8_t raw;
+} TdefMODESET;
+
+
+#define BLINK_OFF   0b000
+#define BLINK_0_5   0b001
+#define BLINK_1     0b010
+#define BLINK_2     0b011
+#define BLINK_0_3   0b100
+#define BLINK_0_2   0b101
+
+typedef struct
+{
+  uint8_t BLINK_SET: 3;
+  uint8_t _PADDING: 5;
+} TdefBLKCTL_Settings;
+
+typedef union{
+  TdefBLKCTL_Settings settings;
+  uint8_t raw;
+} TdefBLKCTL;
+
+
+
+#define PIX_NORMAL    0b00
+#define ALL_PIX_ON    0b10
+#define ALL_PIX_OFF   0b01
+
+typedef struct
+{
+  uint8_t PIX_SET: 2;
+  uint8_t _PADDING: 6;
+} TdefAPCTL_Settings;
+
+typedef union{
+  TdefAPCTL_Settings settings;
+  uint8_t raw;
+} TdefAPCTL;
 
 
 #endif

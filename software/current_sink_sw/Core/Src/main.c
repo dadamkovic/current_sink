@@ -24,7 +24,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "utility.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -76,7 +76,6 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -91,7 +90,15 @@ int main(void)
   MX_ADC_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-
+  mcpInit(txMcp, rxMcp);
+  uint8_t data[18];
+  for(uint8_t i=0;i<18;i++){
+    data[i] = 0x0;
+  }
+  mcpWriteDisplay(data,18,0x00);
+  bufferTransmit();
+  data[0] = 0x1;
+  uint8_t idx = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,7 +106,15 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    mcpWriteDisplay(data,18,0x00);
+    bufferTransmit();
+    data[idx] = data[idx] << 1;
+    if(data[idx] == 0){
+      idx++;
+      data[idx] = 0x01;
+    }
+    HAL_Delay(2000);
+    while(HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port,ENCODER_SW_Pin) != GPIO_PIN_RESET){};
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

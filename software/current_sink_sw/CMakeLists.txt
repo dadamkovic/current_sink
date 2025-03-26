@@ -50,6 +50,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     ${CMAKE_SOURCE_DIR}/Core/Lib/MCP4728/MCP4728.c
     ${CMAKE_SOURCE_DIR}/Core/Lib/segment_lib/segment_lib.c
+    ${CMAKE_SOURCE_DIR}/Core/Src/utility.c
 )
 
 # Add include paths
