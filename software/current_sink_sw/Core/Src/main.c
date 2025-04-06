@@ -45,17 +45,61 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint8_t encoder_trig = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+uint32_t handleEncoder(uint32_t cnt);
+uint32_t add_s(uint32_t num, uint32_t add, uint32_t max);
+uint32_t sub_s(uint32_t num, uint32_t dec, uint32_t min);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint32_t handleEncoder(uint32_t cnt){
+  GPIO_PinState enc_a, enc_b, enc_sw = GPIO_PIN_RESET;
+  static uint32_t inc = 1;
+  HAL_Delay(5);
+  enc_a = HAL_GPIO_ReadPin(ENCODER_A_GPIO_Port, ENCODER_A_Pin);
+  enc_b = HAL_GPIO_ReadPin(ENCODER_B_GPIO_Port, ENCODER_B_Pin);
+  enc_sw = HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port, ENCODER_SW_Pin);
+
+  if(enc_sw == GPIO_PIN_RESET){
+    inc *= 10;
+    HAL_Delay(300);
+    return cnt;
+  }
+
+  if(enc_a == GPIO_PIN_SET){
+      if(enc_b == GPIO_PIN_RESET){
+        cnt = add_s(cnt, inc, DISP_MAX);
+      }
+      else{
+        cnt = sub_s(cnt, inc, DISP_MIN);
+      }
+  }
+
+  if(enc_a == GPIO_PIN_RESET){
+    if(enc_b == GPIO_PIN_RESET){
+      cnt = sub_s(cnt, inc, DISP_MIN);
+    }
+    else{
+      cnt = add_s(cnt, inc, DISP_MAX);
+    }
+  }
+
+  return cnt;
+}
+
+uint32_t add_s(uint32_t num, uint32_t add, uint32_t max){
+  return ((num + add) >= max) ? max : (num + add);
+}
+
+uint32_t sub_s(uint32_t num, uint32_t dec, uint32_t min){
+  return ((num - dec) >= num || (num - dec) <= min) ? min : (num - dec);
+}
 
 /* USER CODE END 0 */
 
@@ -67,7 +111,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  uint32_t  counts = 0;
+  uint8_t data[] = "WELCOME!";
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -90,17 +135,12 @@ int main(void)
   MX_ADC_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  mcpInit(txMcp, rxMcp);
-  uint8_t data[18];
-  for(uint8_t i=0;i<18;i++){
-    data[i] = 0x0;
-  }
-  mcpWriteDisplay(data,18,0x00);
-  bufferTransmit();
-  data[0] = 0x1;
-  uint8_t idx = 0;
 
-  uint32_t number = 66778899;
+  //load data for each character into set
+  initSegements();
+  //initialize MCP4728 library with tx & rx I2C functions
+  mcpInit(txMcp, rxMcp);
+  mcpWriteString(data);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,21 +148,37 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    /*mcpWriteDisplay(data,18,0x00);
-    bufferTransmit();
-    data[idx] = data[idx] << 1;
-    if(data[idx] == 0){
-      idx++;
-      data[idx] = 0x01;
-    }
-    HAL_Delay(2000);
-    while(HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port,ENCODER_SW_Pin) != GPIO_PIN_RESET){};
-    */
-    mcpWriteString(number);
-    HAL_Delay(2000);
-    while(HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port,ENCODER_SW_Pin) != GPIO_PIN_RESET){};
-    number += 1111;
+
     /* USER CODE BEGIN 3 */
+    
+    while(encoder_trig != 0x01){};
+    HAL_Delay(500);
+    encoder_trig = 0;
+    mcpWriteString(".DAN\'S..'");
+    
+    while(encoder_trig != 0x01){};
+    HAL_Delay(500);
+    encoder_trig = 0;
+    mcpWriteString(".1\'2.00mV");
+
+    while(encoder_trig != 0x01){};
+    HAL_Delay(500);
+    encoder_trig = 0;
+    mcpWriteString(".1...3.0.00mA");
+
+    while(encoder_trig != 0x01){};
+    HAL_Delay(500);
+    encoder_trig = 0;
+    mcpWriteString(".1230.00mA");
+
+    while(encoder_trig != 0x01){};
+    HAL_Delay(500);
+    encoder_trig = 0;
+    mcpWriteString("\'\'\'\'....");
+    
+    /*counts = handleEncoder(counts);
+    encoder_trig = 0;
+    mcpWriteNumber(counts);*/
   }
   /* USER CODE END 3 */
 }
@@ -172,7 +228,9 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_GPIO_EXTI_Callback(uint16_t pin){
+  encoder_trig = 0x01; 
+}
 /* USER CODE END 4 */
 
 /**

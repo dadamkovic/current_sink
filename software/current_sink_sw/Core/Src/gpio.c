@@ -52,17 +52,23 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(NLDAC_GPIO_Port, NLDAC_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : ENCODER_A_Pin ENCODER_B_Pin ENCODER_SW_Pin */
-  GPIO_InitStruct.Pin = ENCODER_A_Pin|ENCODER_B_Pin|ENCODER_SW_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  /*Configure GPIO pin : ENCODER_A_Pin */
+  GPIO_InitStruct.Pin = ENCODER_A_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(ENCODER_A_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : ENCODER_B_Pin RDY_Pin */
+  GPIO_InitStruct.Pin = ENCODER_B_Pin|RDY_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : RDY_Pin */
-  GPIO_InitStruct.Pin = RDY_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  /*Configure GPIO pin : ENCODER_SW_Pin */
+  GPIO_InitStruct.Pin = ENCODER_SW_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(RDY_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(ENCODER_SW_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : NLDAC_Pin */
   GPIO_InitStruct.Pin = NLDAC_Pin;

@@ -23,8 +23,7 @@
                 "--verify",
                 "-ob displ",
                 "-hardRst",
-                "-rst",
-                "-run"
+                "-s"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

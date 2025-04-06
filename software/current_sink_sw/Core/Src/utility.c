@@ -11,7 +11,13 @@
 
  #include "utility.h"
 
- 
+/**
+ * @brief Transmit function wrapper for MCP
+ * 
+ * @param data Pointer to data to be transmitted
+ * @param len Length of data to be transmitted
+ * @return TDefMCPStatus 
+ */
 TDefMCPStatus txMcp(uint8_t *data, uint8_t len){
   HAL_StatusTypeDef ret;
   uint8_t addr = 0;
@@ -25,6 +31,14 @@ TDefMCPStatus txMcp(uint8_t *data, uint8_t len){
   }
 }
 
+
+/**
+ * @brief Receive function wrapper for MCP
+ * 
+ * @param data Pointer to memory for received data
+ * @param len Length of received data
+ * @return TDefMCPStatus 
+ */
 TDefMCPStatus rxMcp(uint8_t *data, uint8_t len){
   HAL_StatusTypeDef ret;
   

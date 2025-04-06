@@ -19,6 +19,8 @@
 // write mode default address
 #define MCP4728_ADDRESS (0b00111110<<1)
 #define BUFF_SIZE 64
+#define MAX_DIGITS 8
+#define MAX_SEGMENTS 16
 
 #define SET_RAM_WRITE(x) (x & ~(1<<7))
 #define SET_COMMAND(x) (x & ~(1<<7))
@@ -59,7 +61,8 @@ TDefMCPStatus bufferTransmit();
 uint8_t segmentAddressBit(uint8_t digit, uint16_t segment);
 TDefMCPStatus mcpSetMemoryMap(Tdef_segement *data);
 TDefMCPStatus mcpClearMemoryMap();
-TDefMCPStatus mcpWriteString(uint32_t num);
+TDefMCPStatus mcpWriteNumber(uint32_t num);
+TDefMCPStatus mcpWriteString(uint8_t *str);
 
 TDefMCPStatus mcpInit(TDefTransmitMCP *t_func, TDefReceiveMCP *r_func);
 TDefMCPStatus mcpShutdown();
