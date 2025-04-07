@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "utility.h"
+#include "task_manager.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -51,55 +52,12 @@ uint8_t encoder_trig = 0;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-uint32_t handleEncoder(uint32_t cnt);
-uint32_t add_s(uint32_t num, uint32_t add, uint32_t max);
-uint32_t sub_s(uint32_t num, uint32_t dec, uint32_t min);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint32_t handleEncoder(uint32_t cnt){
-  GPIO_PinState enc_a, enc_b, enc_sw = GPIO_PIN_RESET;
-  static uint32_t inc = 1;
-  HAL_Delay(5);
-  enc_a = HAL_GPIO_ReadPin(ENCODER_A_GPIO_Port, ENCODER_A_Pin);
-  enc_b = HAL_GPIO_ReadPin(ENCODER_B_GPIO_Port, ENCODER_B_Pin);
-  enc_sw = HAL_GPIO_ReadPin(ENCODER_SW_GPIO_Port, ENCODER_SW_Pin);
 
-  if(enc_sw == GPIO_PIN_RESET){
-    inc *= 10;
-    HAL_Delay(300);
-    return cnt;
-  }
-
-  if(enc_a == GPIO_PIN_SET){
-      if(enc_b == GPIO_PIN_RESET){
-        cnt = add_s(cnt, inc, DISP_MAX);
-      }
-      else{
-        cnt = sub_s(cnt, inc, DISP_MIN);
-      }
-  }
-
-  if(enc_a == GPIO_PIN_RESET){
-    if(enc_b == GPIO_PIN_RESET){
-      cnt = sub_s(cnt, inc, DISP_MIN);
-    }
-    else{
-      cnt = add_s(cnt, inc, DISP_MAX);
-    }
-  }
-
-  return cnt;
-}
-
-uint32_t add_s(uint32_t num, uint32_t add, uint32_t max){
-  return ((num + add) >= max) ? max : (num + add);
-}
-
-uint32_t sub_s(uint32_t num, uint32_t dec, uint32_t min){
-  return ((num - dec) >= num || (num - dec) <= min) ? min : (num - dec);
-}
 
 /* USER CODE END 0 */
 
@@ -140,6 +98,7 @@ int main(void)
   initSegements();
   //initialize MCP4728 library with tx & rx I2C functions
   mcpInit(txMcp, rxMcp);
+  taskManagerInit(getTick);
   mcpWriteString(data);
   /* USER CODE END 2 */
 

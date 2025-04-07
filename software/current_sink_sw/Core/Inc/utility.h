@@ -19,4 +19,8 @@
 TDefMCPStatus txMcp(uint8_t *data, uint8_t len);
 TDefMCPStatus rxMcp(uint8_t *data, uint8_t len);
 
+uint32_t handleEncoder(uint32_t cnt);
+uint32_t add_s(uint32_t num, uint32_t add, uint32_t max);
+uint32_t sub_s(uint32_t num, uint32_t dec, uint32_t min);
+
 #endif

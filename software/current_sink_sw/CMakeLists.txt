@@ -52,6 +52,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/Core/Lib/MCP4728/MCP4728_user.c
     ${CMAKE_SOURCE_DIR}/Core/Lib/segment_lib/segment_lib.c
     ${CMAKE_SOURCE_DIR}/Core/Src/utility.c
+    ${CMAKE_SOURCE_DIR}/Core/Lib/TaskManager/task_manager.c
 )
 
 # Add include paths
@@ -59,6 +60,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_SOURCE_DIR}/Core/Lib/MCP4728
     ${CMAKE_SOURCE_DIR}/Core/Lib/segment_lib
+    ${CMAKE_SOURCE_DIR}/Core/Lib/TaskManager
     )
 
 # Add project symbols (macros)
